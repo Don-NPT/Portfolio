@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #fff;
+    color: #394059;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.avatar {
+    float: right;
+}
+
+.shape {
+    height: 0;
+    width: 0;
+    border-right: 700px solid red;
+    border-left: 700px solid transparent;
+    border-bottom: 700px solid transparent;
+    border-top: 700px solid transparent;
+    float: right;
+
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: -1;
+  }
+
+header {
+    padding: 20px;
+}
+
+header .name {
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 300px;
+}
+
+header i {
+    font-size: 30px; 
+    color: red;
+}
+
+header ul {
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    margin: auto 15px;
+}
+
+header li a {
+    text-decoration: none;
+    color: #394059;
+    font-weight: bold;
+}
+
+header li a:hover {
+    text-decoration: none;
+    color: #777;
+}
+
+.profile {
+    height: 500px;
+}
+
+.profile h5{
+    margin-top: 100px;
+    font-weight: lighter;
+    font-size: 20px;
+    color: #394059;
+}
+
+.profile h1{
+    margin: 20px 0;
+    font-size: 50px;
+}
+
+.profile h3{
+    margin: 10px 0;
+    font-weight: lighter;
+    font-size: 25px;
+    color: red;
+    padding-bottom: 10px;
+}
+
+.profile ul {
+    margin-top: 50px;
+    list-style: none;
+}
+
+.profile li {
+    display: inline;
+    margin: 0 10px;
+    font-size: 30px;
+}
+
+.profile .work-btn{
+    margin-top: 60px;
+    padding: 15px 25px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, rgba(36,0,0,1) 0%, rgba(215,0,0,1) 0%, rgba(255,166,0,1) 100%);
+    border: none;
+}
+
+.profile .work-btn:hover{
+    background: linear-gradient(90deg, rgba(36,0,0,1) 0%, rgba(96,5,5,1) 0%, rgba(98,64,0,1) 100%);
+}
