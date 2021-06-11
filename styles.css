@@ -7,6 +7,9 @@
 body {
     background-color: #fff;
     color: #394059;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
 }
 
 .container {
@@ -16,6 +19,7 @@ body {
 
 .avatar {
     float: right;
+    z-index: 1;
 }
 
 .shape {
@@ -35,6 +39,8 @@ body {
 
 header {
     padding: 20px;
+    top: 0;
+    position: sticky;
 }
 
 header .name {
@@ -68,12 +74,17 @@ header li a:hover {
     color: #777;
 }
 
+.page {
+    height: 100vh;
+    margin: 0 auto;
+}
+
 .profile {
     height: 500px;
 }
 
 .profile h5{
-    margin-top: 100px;
+    padding-top: 100px;
     font-weight: lighter;
     font-size: 20px;
     color: #394059;
@@ -113,4 +124,57 @@ header li a:hover {
 
 .profile .work-btn:hover{
     background: linear-gradient(90deg, rgba(36,0,0,1) 0%, rgba(96,5,5,1) 0%, rgba(98,64,0,1) 100%);
+}
+
+.about {
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.title {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.card {
+    margin-top: 40px;
+    width: 300px;
+    height: 310px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #333;
+}
+
+    .card:hover{
+        box-shadow: 0px 0px 10px rgb(42, 116, 255);
+    }
+
+.card img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px 10px 0 0;
+}
+
+.card .card-title {
+    margin: 10px;
+    text-align: center;
+}
+
+.view-btn a {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color:rgb(53, 199, 53);
+    color: #fff;
+    text-decoration: none;
+}
+
+    .view-btn a:hover {
+        background-color:rgb(25, 138, 25);
+    }
+
+.view-btn {
+    display: flex;
+    justify-content: center;
 }
